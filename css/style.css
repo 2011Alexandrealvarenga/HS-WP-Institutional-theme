@@ -7,9 +7,10 @@
   justify-content: space-around;
   gap: 16px;
 }
+/* 
 #specialist .content-title-section{
   padding-bottom: 32px;
-}
+} */
 
 #further-areas{
   padding: 120px 0;
@@ -21,7 +22,11 @@
   gap: 16px;
   flex-wrap: wrap;
 }
-#further-areas .content-title-section{
+#we-are .content-title-section,
+#specialist .content-title-section,
+#further-areas .content-title-section,
+#jobs-concluded .content-title-section
+{
   padding-bottom: 32px;
 }
 #further-areas .content-title-section .subtitle{
@@ -35,27 +40,47 @@
 
 
 #jobs-concluded{
+  position: relative;
   padding: 120px 0;
-  background: #fff;
+  background-image: url('../img/obras-concluidas.PNG');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
 }
-
-#jobs-concluded .itens{
+#jobs-concluded::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* intensidade */
+}
+#jobs-concluded .content{
+  position: relative;
+  z-index: 2;
+}
+#jobs-concluded .itens,
+#works-progress .itens
+{
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
-#jobs-concluded .itens .icon-check{
+#jobs-concluded .itens .icon-check,
+#works-progress .itens .icon-check
+{
   width: 24px;
   margin-right: 8px;
 }
-#jobs-concluded .itens .desc .subtitle{
+#jobs-concluded .itens .desc .subtitle,
+#works-progress .itens .desc .subtitle
+{
   font-size: 18px;
 }
 
-
-
-
-#we-are .content .content-title .hr-line-title{
+#we-are .content .content-title-section .hr-line-title,
+#works-progress .content .content-title .hr-line-title
+{
   margin: 8px 0;
 }
 
