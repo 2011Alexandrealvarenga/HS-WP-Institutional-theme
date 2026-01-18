@@ -31,3 +31,50 @@
   border: 1px solid black;
   margin-top: 24px;
 }
+
+
+
+#jobs-concluded{
+  padding: 120px 0;
+  background: #fff;
+}
+
+#jobs-concluded .itens{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+#jobs-concluded .itens .icon-check{
+  width: 24px;
+  margin-right: 8px;
+}
+#jobs-concluded .itens .desc .subtitle{
+  font-size: 18px;
+}
+
+
+
+
+#we-are .content .content-title .hr-line-title{
+  margin: 8px 0;
+}
+
+
+/* column full to image  */
+
+@media (max-width:991px){
+.full_column_image .row{
+  flex-direction:column-reverse;}
+}
+
+.full_column_image .content{
+  padding:80px 15px;
+}
+
+.full_column_image .image{
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height:300px;
+}
+
