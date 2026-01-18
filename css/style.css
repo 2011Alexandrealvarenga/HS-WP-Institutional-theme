@@ -53,12 +53,20 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.8); /* intensidade */
+  background-color: rgba(255, 255, 255, 0.8); 
 }
 #jobs-concluded .content{
   position: relative;
   z-index: 2;
 }
+
+
+
+
+
+
+
+
 #jobs-concluded .itens,
 #works-progress .itens
 {
@@ -101,5 +109,9 @@
   background-size:cover;
   background-repeat: no-repeat;
   min-height:300px;
+   position: relative;
+
 }
 
+
+ 
