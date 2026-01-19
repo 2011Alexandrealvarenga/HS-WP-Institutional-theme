@@ -88,10 +88,6 @@
 {
   font-size: 18px;
 }
-
-
-
-
 #contact .phone-icon{
   width: 24px;
   margin-right: 8px;
@@ -99,10 +95,6 @@
 #contact .btn-content .phone {
     font-size: 24px;
 }
-
-
-
-
 #contact .content .content-title-section .hr-line-title,
 #we-are .content .content-title-section .hr-line-title,
 #works-progress .content .content-title .hr-line-title
@@ -147,13 +139,6 @@
 #contact .iframe-section{
   padding: 0;
 }
-/* column full to image  */
-
-@media (max-width:991px){
-.full_column_image .row{
-  flex-direction:column-reverse;}
-}
-
 .full_column_image .content{
   padding:80px 15px;
 }
@@ -163,9 +148,57 @@
   background-size:cover;
   background-repeat: no-repeat;
   min-height:300px;
-   position: relative;
+  position: relative;
+}
 
+/* Responsive  */
+
+@media (max-width:991px){
+.full_column_image .row{
+  flex-direction:column-reverse;}
 }
 
 
+
+@media (max-width: 425px){
+  .full_column_image .content {
+    padding: 60px 15px;
+  }
+  #specialist,
+  #jobs-concluded,
+  #further-areas
+  {padding: 60px 0;}
+
+  .itens-card{
+    width: inherit!important;
+  }
+
+  #specialist .three-itens{
+    display: grid;
+  }
+
+  .pad-resp-col{padding: 0 24px;}
+  
+  #we-are .hr-line-title,
+  #contact .hr-line-title,
+  #works-progress .hr-line-title {
+      margin: 8px auto!important;
+  }
+
+  #contact .subtitle,
+  #works-progress .content-text{
+    text-align: left;
+  }
+  #contact iframe{
+    height: 350px;
+  }
+  .order-1-contact{
+    order: 1;
+  }
+  .order-1-contact{
+    order: 2;
+  }
+
+
+}
 

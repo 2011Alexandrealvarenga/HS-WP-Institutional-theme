@@ -1,2 +1,2 @@
-# HS-WP-Institutional-theme
-Wordpress theme to institutional website
+# Repository
+https://github.com/2011Alexandrealvarenga/HS-WP-Institutional-theme
