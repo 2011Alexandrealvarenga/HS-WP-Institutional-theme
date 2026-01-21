@@ -212,14 +212,22 @@ footer .float {
     /* box-shadow: 2px 2px 3px #999; */
 }
 /* Responsive  */
-
+@media (min-width:1300px){
+  .carousel .carousel-inner .carousel-item .img-item {
+    height: 750px;
+  }
+  /* #we-are .full_column_image .content {
+    padding: 140px 15px;
+  } */
+  /* #works-progress .full_column_image .content,
+  #contact .full_column_image .content{
+      padding: 80px 80px;
+  } */
+}
 @media (max-width:991px){
 .full_column_image .row{
   flex-direction:column-reverse;}
 }
-
-
-
 @media (max-width: 425px){
   .full_column_image .content {
     padding: 60px 15px;
