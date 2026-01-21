@@ -238,7 +238,7 @@ footer .float {
   {padding: 60px 0;}
 
   .itens-card{
-    width: inherit!important;
+    width: 100%!important;
   }
 
   #specialist .three-itens{
