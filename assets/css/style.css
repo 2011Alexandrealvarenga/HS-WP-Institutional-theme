@@ -229,6 +229,16 @@ footer .float {
   flex-direction:column-reverse;}
 }
 @media (max-width: 425px){
+  #we-are .full_column_image .content {
+        padding: 20px 15px!important;
+    }
+  .caption-fixed{
+    margin-left: 50%;
+    width: 90%;
+  }
+  .carousel-caption{
+    bottom: -50px;
+  }
   .full_column_image .content {
     padding: 60px 15px;
   }
