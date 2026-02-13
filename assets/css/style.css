@@ -148,6 +148,7 @@
 {
   margin: 8px 0;
 }
+#made,
 #contact{
   background: #29358C;
 }
@@ -211,6 +212,16 @@ footer .float {
     /* border-radius: 50px; */
     /* box-shadow: 2px 2px 3px #999; */
 }
+footer #made .content{
+  display: flex;
+  text-align: center;
+  padding: 8px;
+  justify-content: center;
+}
+footer #made .content p{
+  color: white!important;
+}
+footer #made a{text-decoration: none;}
 /* Responsive  */
 @media (min-width:1300px){
   .carousel .carousel-inner .carousel-item .img-item {
