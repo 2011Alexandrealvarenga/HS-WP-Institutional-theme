@@ -198,6 +198,36 @@
   min-height:300px;
   position: relative;
 }
+#videos{
+  padding: 120px 0;
+  background: #d9d9d9;
+}
+#videos .description{
+  padding-bottom: 32px;
+}
+
+#midia{
+  padding: 120px 0;
+  background: #fff;
+}
+#midia .img-thumb {
+  border-radius: 4px;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+#midia a{
+  text-decoration: none;
+}
+#midia a:hover{
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+#midia .description {
+    margin-top: 8px;
+    padding-bottom: 32px;
+    color: #000;
+}
 footer .float {
     position: fixed;
     width: 60px;
@@ -253,6 +283,7 @@ footer #made a{text-decoration: none;}
   .full_column_image .content {
     padding: 60px 15px;
   }
+  #videos,
   #specialist,
   #jobs-concluded,
   #further-areas
