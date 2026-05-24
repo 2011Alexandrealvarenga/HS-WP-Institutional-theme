@@ -1,3 +1,32 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "git.enabled": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "scm.defaultViewMode": "tree",
+  "scm.diffDecorations": "all",
+  "diffEditor.renderSideBySide": true,
+  "github.gitAuthentication": true,
+  "githubPullRequests.remotes": ["origin"],
+  "githubPullRequests.createOnPublishBranch": "ask",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.queries": [
+    {
+      "label": "Local Pull Request Branches",
+      "query": "default"
+    },
+    {
+      "label": "Meus PRs",
+      "query": "repo:${owner}/${repository} is:pr author:@me"
+    },
+    {
+      "label": "PRs abertos",
+      "query": "repo:${owner}/${repository} is:open is:pr"
+    },
+    {
+      "label": "All Open",
+      "query": "default"
+    }
+  ]
 }
